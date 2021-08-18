@@ -1,11 +1,11 @@
-//19.¥H¨ç¼Æ»¼°j¤è¦¡­pºâ X!
+//19.ä»¥å‡½æ•¸éè¿´æ–¹å¼è¨ˆç®— X!
 
 #include <iostream>
 using namespace std;
 
 int calcFactorial(int x) {
-	if (x < 0)return -1;   //­t¼Æ¤£¯à­pºâ
-	return (x == 0) ? 1 : x * calcFactorial(x - 1);
+	if (x < 0)return -1;   //è² æ•¸ä¸èƒ½è¨ˆç®—
+	return (x == 1) ? 1 : x * calcFactorial(x - 1);
 }
 
 int main() {
