@@ -1,12 +1,12 @@
-//6.²£¥Í¥Ñ 1 ¨ì n (n >= 1) ¤§¶¡ªº©Ò¦³½è¼Æ¡C
+//6.ç”¢ç”Ÿç”± 1 åˆ° n (n >= 1) ä¹‹é–“çš„æ‰€æœ‰è³ªæ•¸ã€‚
 
 #include <iostream>
 using namespace std;
 
-//§Úªº¸Ñªk
+//æˆ‘çš„è§£æ³•
 int main() {
 	int n = 0;
-	cout << "²£¥Í¥Ñ 1 ¨ì n (n >= 1) ¤§¶¡ªº©Ò¦³½è¼Æ¡A¿é¤Jn¡G" << endl;
+	cout << "ç”¢ç”Ÿç”± 1 åˆ° n (n >= 1) ä¹‹é–“çš„æ‰€æœ‰è³ªæ•¸ï¼Œè¼¸å…¥nï¼š" << endl;
 	cin >> n;
 	for (int i = 2; i <= n; i++) {
 		bool flag = false;
@@ -25,3 +25,19 @@ int main() {
 	}
 	return 0;
 }
+
+//ç°¡æ˜“ä¸€D
+//#include <iostream>
+//using namespace std;
+//
+//int main()
+//{
+//    bool flag = true;
+//    for (int i = 2; i <= 20; i++) {
+//        for (int j = 2; j < i; j++) {
+//            if (i % j == 0)flag = false;
+//        }
+//        if (flag)cout << i << endl;
+//        flag = true;
+//    }
+//}
